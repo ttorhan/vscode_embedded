@@ -94,7 +94,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  char* message = "Hello World!\r\n";
+  char* message = "Hello TORHAN!\r\n";
   while (1)
   {
     /* USER CODE END WHILE */
