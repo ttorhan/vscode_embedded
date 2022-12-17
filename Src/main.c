@@ -99,7 +99,7 @@ int main(void)
   {
     /* USER CODE END WHILE */
     HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
-    HAL_Delay(100);
+    HAL_Delay(300);
     if(HAL_GPIO_ReadPin(B1_GPIO_Port,B1_Pin)==GPIO_PIN_RESET){
       HAL_UART_Transmit(&huart2,(uint8_t *)message,strlen(message),100);
 
